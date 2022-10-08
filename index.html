@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Calculator</title>
+  </head>
+
+  <body>
+    <div class="calculator">
+      <h1>Calculator</h1>
+      <div class="input">
+        <input type="text" class="inputfield" readonly disabled>
+      </div>
+      <div class="buttons">
+        <button class="1" onclick="input.value += 1">1</button>
+        <button class="2" onclick="input.value += 2">2</button>
+        <button class="3" onclick="input.value += 3">3</button>
+        <button class="4" onclick="input.value += 4">4</button>
+        <button class="5" onclick="input.value += 5">5</button>
+        <button class="6" onclick="input.value += 6">6</button>
+        <button class="7" onclick="input.value += 7">7</button>
+        <button class="8" onclick="input.value += 8">8</button>
+        <button class="9" onclick="input.value += 9">9</button>
+        <button class="0" onclick="input.value += 0">0</button>
+        <button class="point" onclick="input.value += '.'">.</button>
+        <button class="plus" onclick="input.value += '+'">+</button>
+        <button class="minus" onclick="input.value += '-'">-</button>
+        <button class="divide" onclick="input.value += '/'">/</button>
+        <button class="mult" onclick="input.value += '*'">x</button>
+        <button class="sin">Sin</button>
+        <button class="cos">Cos</button>
+        <button class="tan">Tan</button>
+        <button class="sqrt">√</button>
+        <button class="square">²</button>
+        <button class="cube">³</button>
+        <button class="cubert">∛</button>
+        <button class="log">log</button>
+        <button class="pi">⋏</button>
+        <button class="round">Rnd</button>
+        <button class="del">DEL</button>
+        <button class="clear" onclick="input.value = ''">CE</button>
+        <button class="equals">=</button>
+      </div>
+    </div>
+    <script src="./scripts/index.js"></script>
+  </body>
+
+</html>
