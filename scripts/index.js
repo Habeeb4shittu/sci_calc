@@ -53,3 +53,6 @@ pie.addEventListener("click", function () {
 round.addEventListener("click", function () {
     input.value = Math.round(input.value)
 })
+del.addEventListener("click", function () {
+    input.value = input.value.slice(0, -1)
+})
